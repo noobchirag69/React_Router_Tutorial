@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Droid Sans Mono', monospace;
+}
+
+/* Navbar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 2px solid #000;
+}
+
+.navbar-list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Home, About */
+.home, .about {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.home h1, .home h3, .home p, .about h1, .about p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Services */
+.services {
+    margin-top: 50px;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.service-list ul li {
+    margin: 0 20px;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    margin-top: 50px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact form {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.contact form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Droid Sans Mono', monospace;
+    border: 1px solid #000;
+}
+
+.contact form textarea {
+    height: 120px;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #000;
+}
+
+.contact form button {
+    padding: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Droid Sans Mono', monospace;
+    border: 1px solid #000;;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    border-top: 2px solid #000;
+}
+
+footer h4 {
+    text-align: center;
+}
