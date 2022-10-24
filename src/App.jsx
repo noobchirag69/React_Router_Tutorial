@@ -6,6 +6,7 @@ import { Services } from './components/Services'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import './styles/style.css'
+import './styles/responsive.css'
 
 const App = () => {
   return (

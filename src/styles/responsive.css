@@ -1,0 +1,31 @@
+/* Tablets */
+@media (max-width: 1000px) {
+    .home {
+        max-width: 600px;
+    }
+    .service-list ul {
+        flex-direction: column;
+    }
+    .service-list ul li {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+    .navbar-logo {
+        display: none;
+    }
+    .navbar-list {
+        width: 100%;
+    }
+    .navbar-list ul {
+        justify-content: center;
+    }
+    .home p {
+        margin: 0 30px;
+    }
+    .contact form {
+        width: 300px;
+    }
+}
